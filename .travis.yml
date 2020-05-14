@@ -12,3 +12,6 @@ addons:
     packages:
       - cmake
       - cmake-data
+    script:
+      - cmake CMakeLists.txt
+      - cmake --build .
